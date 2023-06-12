@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+
+* { margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0% auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+
+header { 
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200,200,200)
+
+}
+
+.Logo {
+    color: #0026ff;
+
+}
+ 
+.Logo h2{ 
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.Menu{ 
+    width:80%;
+    text-align: right;
+
+}
+
+.Menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+transition: 1s;
+
+}
+.Menu a:hover{ 
+    color: #007bff;
+
+
+}
+
+.Menu .btn-menu{ 
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px  16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.Menu .btn-menu:hover{ 
+    background-color: #124265;
+    color: white;
+
+}
+
+/*
+section main 
+*/
+
+section.main{
+background-image: url(img/expo_zika_iff_peteriliciev.jpg);
+padding: 100px 0;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background: fixed;
+}
+
+.main__cta{
+    width:100%;
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.main__cta h2{
+    color: #16507b;
+    font-size: 40px;
+}
+
+.main__cta p{ 
+color: gray;
+font-size: 16px;
+margin:10px 0;
+}
+
+
+.diferenciais{
+display:flex
+
+}
+
+
+
+
+
+
+.diferecial-single{ 
+
+background-color: white;
+width: 24%;
+margin-right: 1%;
+padding: 50px 20px ;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .box {
+    width: 450px;
+    height: 450px; 
+    background-color: #bed0da50;
+    margin: 40px;
+    
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+
+
+  .box a{
+text-decoration: none;
+color: black;
+
+   }
+
+ .Logo-p{
+    text-decoration: none;
+color: black;
+font-family: 'Roboto Mono', monospace;
+
+ }
+
+ .box a{
+    display: flex;
+    row-gap: 100px;
+    justify-content: center;
+   margin-bottom: 20px;
+  }
+
+  .balao {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 100vh;
+}
+
+.center-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
